@@ -1,0 +1,53 @@
+#carousel{
+	overflow: hidden;
+	text-align: center;
+	margin: 10px auto;
+	height: 300px;
+	width:400px;
+	border: 1px solid black;
+}
+
+#carousel ul{
+	float: left;
+	margin: 0px;
+	padding:0px;
+	height: 300px;
+	width: 2000px;
+	text-decoration: none;
+	list-style-type: none;
+}
+#carousel ul li {
+	height: 300px;
+	width:400px;
+	list-style-type: none;
+	float: left;
+}
+
+#dots{
+	width:400px;
+	height: 20px;
+	margin: 0 auto;
+	text-align: center;
+	
+}
+
+#dots ul{
+	margin: 0px;
+	padding:0px;
+	
+}
+#dots li{
+	width: 10px;
+	height: 10px;
+	margin: 0 5px;
+	display: inline-block;
+	background-color: black;
+	border-radius: 50%;
+	
+}
+
+#dots li.active{
+	background-color: red;
+	
+}
+	
